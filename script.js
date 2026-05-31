@@ -2,10 +2,8 @@ console.log("ForceShield");
 
 let businessName = "ForceShield";
 
-let greeting = document.getElementById("welcomeMsg");
-console.log(greeting);
-
 function showGreeting() {
+  let greeting = document.getElementById("welcomeMsg");
   greeting.textContent = "Welcome to " + businessName + "!";
 }
 
